@@ -83,6 +83,8 @@ class WP_Stepper {
 
 	public function get_user_count() {
 		$now = new DateTime( 'now' );
+		$now->setTime( 0, 0, 1 );
+
 
 		$query = new WP_User_Query(
 			array(
