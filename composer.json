@@ -1,0 +1,13 @@
+{
+    "name": "thomaslhotta/wp-stepper",
+    "description": "WordPress IOT controller plugin",
+    "license": "GPL-3.0+",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Thomas Lhotta",
+            "email": "th.lhotta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
