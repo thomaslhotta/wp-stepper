@@ -52,7 +52,7 @@ class WP_Stepper {
 	 * Registers actions
 	 */
 	public function register_hooks() {
-		add_action( 'wp_ajax_stepper', array( $this, 'process_ajax' ) );
+		add_action( 'wp_ajax_nopriv_stepper', array( $this, 'process_ajax' ) );
 		add_action( 'wpmu_options', array( $this, 'show_settings' ) );
 		add_action( 'update_wpmu_options', array( $this, 'save_settings' ) );
 	}
